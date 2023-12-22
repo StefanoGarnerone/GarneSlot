@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url('/img/prova.jpg'); /* Sostituisci con il percorso locale dell'immagine di sfondo */
+    background-image: url("https://magazine.impactscool.com/wp-content/uploads/2019/05/Hubble-Legacy-Field-1-800x540.png"); /* Sostituisci con il percorso locale dell'immagine di sfondo */
     background-size: cover;
     font-family: 'Open Sans', sans-serif; /* Carica un font personalizzato da Google Fonts */
   }
@@ -45,6 +45,7 @@ body {
     padding: 10px; /* Aggiunto un padding interno per separare le celle dal bordo */
     width: min-content;
     height: min-content;
+    margin-bottom: 5vh;
   }
   .ri{
     display: flex;
@@ -69,7 +70,6 @@ body {
   }
   
   #spinButton {
-    margin-top: 5vh;
     font-size: 18px;
   appearance: none;
   background-color: #000000;
@@ -99,18 +99,15 @@ body {
 }
 
 #spinButton:disabled {
-  margin-top: 5vh;
   pointer-events: none;
 }
 
 #spinButton:hover {
-  margin-top: 5vh;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
 
 #spinButton:active {
-  margin-top: 5vh;
   box-shadow: none;
   transform: translateY(0);
 }
