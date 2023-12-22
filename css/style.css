@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url('/img/Hubble-Legacy-Field-1-800x540.png'); /* Sostituisci con il percorso locale dell'immagine di sfondo */
+    background-image: url('/img/prova.jpg'); /* Sostituisci con il percorso locale dell'immagine di sfondo */
     background-size: cover;
     font-family: 'Open Sans', sans-serif; /* Carica un font personalizzato da Google Fonts */
   }
