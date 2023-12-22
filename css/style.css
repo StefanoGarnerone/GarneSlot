@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('/img/Hubble-Legacy-Field-1-800x540.png'); /* Sostituisci con il percorso locale dell'immagine di sfondo */
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif; /* Carica un font personalizzato da Google Fonts */
+  }
+  .cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .conto{
+    font-size: 3vh;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  }
+  #garneSlotTitle {
+    font-size: 7vh;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  }
+  .container-fluid{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+  .slot-machine {
+    border-radius: 10px; /* Aggiunto un bordo arrotondato */
+    background-color: #fff; /* Aggiunto uno sfondo bianco */
+    padding: 10px; /* Aggiunto un padding interno per separare le celle dal bordo */
+    width: min-content;
+    height: min-content;
+  }
+  .ri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .slot {
+    padding: 1px;
+    width: 7vh;
+    height: 7vh;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  .winning-column {
+    background-color: lightgreen;
+  }
+  
+  #spinButton {
+    margin-top: 5vh;
+    font-size: 18px;
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 40%;
+  will-change: transform;
+}
+
+#spinButton:disabled {
+  margin-top: 5vh;
+  pointer-events: none;
+}
+
+#spinButton:hover {
+  margin-top: 5vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+#spinButton:active {
+  margin-top: 5vh;
+  box-shadow: none;
+  transform: translateY(0);
+}
+  
+  #result {
+    font-weight: bold;
+    font-size: 3vh;
+    margin-top: 10px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  }
